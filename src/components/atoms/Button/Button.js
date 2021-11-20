@@ -3,7 +3,7 @@ import { ReactComponent as DeleteIcon } from 'assets/icons/delete-icon.svg';
 import { StyledButton } from './Button.styles';
 
 const Button = (props) => (
-  <StyledButton>
+  <StyledButton {...props}>
     <DeleteIcon />
   </StyledButton>
 );
