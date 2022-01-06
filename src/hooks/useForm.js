@@ -15,7 +15,6 @@ const reducer = (state, action) => {
         [action.field]: action.value,
       };
     case actionTypes.clearValues:
-      console.log(action);
       return { ...action.initialValues };
     case actionTypes.consentToggle:
       return {
